@@ -3,7 +3,9 @@
 
 # Export train data into python from csv file
 import pandas as pd
+from sklearn.model_selection import train_test_split
 train = pd.read_csv("/Users/drakeshaub/Documents/GitHub Desktop/Kaggle - Spaceship Titanic/Kaggle_Spaceship_Titanic/train.csv")
 # check to see if import worked
 train.head()
 
+import tensorflow as tf
